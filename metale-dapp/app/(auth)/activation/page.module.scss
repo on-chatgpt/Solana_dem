@@ -1,0 +1,37 @@
+@import "app/variables.module";
+
+.page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .top {
+    margin-top: 40px;
+
+    .title {
+      text-align: center;
+      font-weight: 900;
+      font-size: 28px;
+      margin: 0 0 16px;
+    }
+
+    .info {
+      font-size: 15px;
+      line-height: 20px;
+      color: $text-2;
+      margin-bottom: 30px;
+    }
+  }
+
+  .bottom {
+    margin-bottom: 136px;
+
+    .sns {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+  }
+}

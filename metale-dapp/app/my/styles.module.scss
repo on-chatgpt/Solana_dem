@@ -1,0 +1,171 @@
+@import "app/variables.module";
+
+.user-info {
+  padding: 16px 20px 28px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 100px;
+    background: orange;
+  }
+
+  .id-and-wallet {
+    flex: 1;
+
+    .id {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .wallet {
+      font-size: 14px;
+      color: $text-2;
+    }
+  }
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $metale-yellow;
+  height: 84px;
+  margin: 0 20px;
+  padding: 0 40px;
+  border-radius: 20px;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .value {
+      font-size: 18px;
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+
+    .label {
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.45)
+    }
+  }
+}
+
+.action {
+  margin: 12px 20px 33px;
+  gap: 12px;
+  display: flex;
+
+  .item {
+    flex: 1;
+    height: 116px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .name {
+      margin: 14px 0 4px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .info {
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.3)
+    }
+  }
+}
+
+.blue {
+  background: #EDF7FFFF;
+}
+
+.yellow {
+  background: #FDFAE5FF;
+}
+
+.section-title {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .info {
+    font-size: 13px;
+    color: $text-3;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.invitation-code {
+  background: #F4F4F6FF;
+  border-radius: 16px;
+  height: 64px;
+  margin: 24px 20px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .code {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .copy {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    .text {
+      font-size: 15px;
+    }
+  }
+}
+
+.dialog-hint {
+  font-size: 12px;
+  color: $text-3;
+
+  span {
+    color: $text-1;
+  }
+}
+
+.receive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .network{
+    height: 23px;
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background: #F4F4F6FF;
+    border-radius: 100px;
+  }
+
+  .info {
+    font-size: 13px;
+    color: $text-3;
+  }
+
+  .address {
+    font-weight: 700;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,114 @@
+@import "app/variables.module";
+
+.card {
+  margin-bottom: 16px;
+  border-radius: 14px;
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.03);
+
+  .top {
+    height: 126px;
+    position: relative;
+
+    .top-bg {
+      height: 109px;
+      background: antiquewhite;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .cover {
+      width: 107px;
+      height: 126px;
+      background: cadetblue;
+      z-index: 1;
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    .info {
+      position: absolute;
+      top: 41px;
+      left: 142px;
+      right: 15px;
+
+      p {
+        margin-bottom: 10px;
+      }
+
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .stat {
+        font-size: 12px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.5);
+
+        span {
+          color: black;
+        }
+      }
+
+      .category {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  .bottom {
+    height: 101px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    background: white;
+    position: relative;
+    overflow: hidden;
+
+    .intro {
+      color: rgba(108, 114, 127, 1);
+      font-size: 13px;
+      line-height: 16px;
+      max-lines: 2;
+      padding: 12px 15px 10px;
+    }
+
+    .author {
+      display: flex;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+
+      .avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 30px;
+        background: rebeccapurple;
+        margin-left: 15px;
+      }
+
+      .name {
+        font-size: 13px;
+        color: #9EA3AEFF;
+        margin: 0 10px;
+      }
+    }
+
+    .spot {
+      position: absolute;
+      bottom: -10px;
+      left: -10px;
+      width: 42px;
+      height: 42px;
+      background: $metale-yellow;
+      border-radius: 30px;
+    }
+  }
+}

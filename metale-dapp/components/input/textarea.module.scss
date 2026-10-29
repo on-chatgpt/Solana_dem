@@ -1,0 +1,25 @@
+@import "app/variables.module";
+
+.container {
+  //height: 56px;
+  border-radius: 30px;
+  border: 1px solid #E9ECF2FF;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+
+  textarea {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    outline: none;
+
+    &::placeholder {
+      font-weight: normal;
+      font-size: 13px;
+      color: $text-3;
+    }
+  }
+}

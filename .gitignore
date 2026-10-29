@@ -1,0 +1,41 @@
+**/node_modules
+**/dist
+**/*.tsbuildinfo
+**/vite.config.js
+**/vite.config.d.ts
+**/.env
+**/.env.*
+!.env.example
+/asses
+# Hardhat files
+**/cache
+**/artifacts
+
+# TypeChain files
+**/typechain
+**/typechain-types
+
+# solidity-coverage files
+**/coverage
+**/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+**/ignition/deployments/chain-31337
+
+# Logs and OS files
+**/*.log
+.DS_Store
+
+# Local Docker data
+data/postgres
+!data/.gitkeep
+!data/.env.example
+!data/docker-compose.yml
+!data/README.md
+
+# Deployment temp files
+.deploy-stage
+.deploy-ssh
+bsc-testnet-wallets.txt
+.next
+

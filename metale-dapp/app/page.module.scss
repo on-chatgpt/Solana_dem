@@ -1,0 +1,20 @@
+@import 'app/variables.module';
+
+.base {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 0 46px;
+}
+
+.logo {
+  margin: 166px auto 24px auto;
+}
+
+.text {
+  font-size: 26px;
+  font-weight: bold;
+  color: $metale-blue;
+  line-height: 28px;
+  text-align: center;
+}

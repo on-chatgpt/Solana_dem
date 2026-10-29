@@ -1,0 +1,80 @@
+/* 基础暗色卡片样式 */
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.pageDark {
+  min-height: 100vh;
+  background: #0b1324;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 24px 16px;
+  color: #e5e7eb;
+}
+.headerInfo {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  opacity: 0.85;
+}
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.tabBtn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+}
+.card {
+  background: #0f172a;
+  color: #e5e7eb;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.cardHeader {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.balanceRow,
+.actionsRow,
+.resultRow,
+.formRow {
+  margin-bottom: 10px;
+}
+.primaryBtn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+}
+.input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #0b1324;
+  color: #e5e7eb;
+}
+.list {
+  display: grid;
+  gap: 8px;
+}
+.listItem {
+  padding: 8px;
+  border: 1px solid #1f2937;
+  border-radius: 6px;
+}
+.empty {
+  opacity: 0.7;
+}
